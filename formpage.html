@@ -2,14 +2,26 @@
 <html>
   <head>
     <title>formpage</title>
-
+    
+    <style>
+      a {text-decoration: none;
+         font-size: 30px;}
+    </style>
 
   </head>
   <body>
     <center>
+          <h1>Free Online BootCamp 🌐</h1>
+          <p>Empower your coding journey with our Free Online BootCamp and master the art of frontend development.</p>
+          
+    </center>
+
+    <hr>
+
+    <center>
+      <h2>Register Form</h2>
       <form>
          <table>
-           
            <tr>
               <td>Name:</td> 
               <td><input type="text" placeholder="Enter your Name"></td>
@@ -18,6 +30,19 @@
            <tr>
              <td>Age:</td> 
              <td><input type="number" placeholder="Enter your age"></td>
+           </tr>
+
+           <tr>
+             <td>Gender:</td>
+             <td>
+                <input type="radio" name="Gender" value="Male">Male
+                <input type="radio" name="Gender" value="Female">Female
+             </td>
+           </tr>
+
+           <tr>
+             <td>Email:</td>
+             <td><input type="email" placeholder="Please enter the valid email"></td>
            </tr>
 
            <tr>
@@ -42,16 +67,26 @@
                 <select>
                     <option>Frontend developer</option>
                     <option>Backend developer</option>
+                    <option>Database</option>
                 </select>
              </td>
            </tr>
 
            <tr>
-             <td> </td>
+            <td>Resume:</td> 
+            <td><input type="file"></td>
+           </tr>
+
+           <tr>
+             <td><input type="reset"></td>
              <td><input type="submit"></td>
            </tr>
          </table>
       </form>
+
+      <hr>
+      <a href="index.html">🔙</a>
     </center>
+    
    </body>
 </html>
